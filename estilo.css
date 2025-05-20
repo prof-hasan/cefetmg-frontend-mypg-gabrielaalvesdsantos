@@ -1,0 +1,36 @@
+ body {
+    background-color: rgb(255, 255, 255, .7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0% 25%;
+    font-size: 80%;
+}
+h1 {
+    color:brown;
+    text-shadow: 2px 2px black;
+}
+h2 {
+    color: lightsalmon;
+}
+html, body{
+    min-height: 100%;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    background-image: url(background.jpg) ;
+}
+td, th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid;
+}
+caption {
+    margin: 10px;
+    font-weight: bold;
+    font-size: medium;
