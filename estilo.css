@@ -1,36 +1,83 @@
- body {
-    background-color: rgb(255, 255, 255, .7);
+html {
+    background-image: url(fundo-pagina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.7);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    margin: 0% 25%;
-    font-size: 80%;
+    margin: 0% 10%;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 3px solid #7b682a;
 }
+
 h1 {
-    color:brown;
-    text-shadow: 2px 2px black;
+    color: #846300;
+    font-size: 75px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 }
+
 h2 {
-    color: lightsalmon;
+    color: #5a4d1c;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
-html, body{
-    min-height: 100%;
+
+p, ul {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
 }
+
+img {
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 table {
-    margin: auto;
+    margin: 30px auto;
     border-collapse: collapse;
-    width: 60%;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #999;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-html {
-    background-image: url(background.jpg) ;
-}
-td, th {
-    padding: 10px;
+
+th, td {
+    padding: 12px;
     text-align: left;
-    border: 1px solid;
+    border: 1px solid #999;
+    font-size: 18px;
 }
+
 caption {
-    margin: 10px;
+    margin: 15px;
     font-weight: bold;
-    font-size: medium;
+    font-size: 22px;
+}
+
+a {
+    color: #6b4e16;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #3e2f00;
+    border-top: 1px solid #ccc;
+}
